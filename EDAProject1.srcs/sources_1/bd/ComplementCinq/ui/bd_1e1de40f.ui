@@ -1,0 +1,38 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port In0 -pg 1 -y -90 -defaultsOSRD
+preplace port In1 -pg 1 -y -70 -defaultsOSRD
+preplace port In2 -pg 1 -y -50 -defaultsOSRD
+preplace port In3 -pg 1 -y -30 -defaultsOSRD
+preplace port In4 -pg 1 -y -10 -defaultsOSRD
+preplace port Out0 -pg 1 -y -110 -defaultsOSRD
+preplace port Out1 -pg 1 -y -90 -defaultsOSRD
+preplace port Out2 -pg 1 -y -70 -defaultsOSRD
+preplace port Out3 -pg 1 -y -50 -defaultsOSRD
+preplace port Out4 -pg 1 -y -30 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 2 -y -50 -defaultsOSRD
+preplace inst XOR0 -pg 1 -lvl 1 -y -130 -defaultsOSRD
+preplace inst Converter -pg 1 -lvl 3 -y 80 -defaultsOSRD
+preplace inst XOR1 -pg 1 -lvl 1 -y 100 -defaultsOSRD
+preplace inst XOR2 -pg 1 -lvl 1 -y -10 -defaultsOSRD
+preplace inst XOR3 -pg 1 -lvl 1 -y 220 -defaultsOSRD
+preplace netloc XOR3_y 1 1 2 190J 140 N
+preplace netloc In2_1 1 0 1 -20
+preplace netloc XOR2_y 1 1 2 190J 0 360
+preplace netloc XOR1_y 1 1 2 NJ 100 350
+preplace netloc Converter_S0 1 3 1 560
+preplace netloc XOR0_y 1 1 2 NJ -130 380
+preplace netloc Converter_S1 1 3 1 570
+preplace netloc In0_1 1 0 1 -30
+preplace netloc Converter_S2 1 3 1 580
+preplace netloc Converter_S3 1 3 1 590
+preplace netloc xlconstant_0_dout 1 2 1 370
+preplace netloc In3_1 1 0 1 -30
+preplace netloc Converter_S4 1 3 1 600
+preplace netloc In4_1 1 0 3 -10 160 NJ 160 370
+preplace netloc In1_1 1 0 1 0
+levelinfo -pg 1 -50 100 280 480 620 -top -360 -bot 320
+",
+}
+0

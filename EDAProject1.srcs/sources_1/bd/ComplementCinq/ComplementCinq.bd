@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<bd:repository xmlns:bd="http://www.xilinx.com/bd" bd:BoundaryCRC="0x69EF4B6769EF4B67" bd:device="xc7a35tcpg236-1" bd:isValidated="true" bd:synthFlowMode="None" bd:tool_version="2017.2" bd:top="ComplementCinq" bd:version="1.00.a">
+
+  <spirit:component xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+    <spirit:vendor>xilinx.com</spirit:vendor>
+    <spirit:library>BlockDiagram</spirit:library>
+    <spirit:name>ComplementCinq</spirit:name>
+    <spirit:version>1.00.a</spirit:version>
+    <spirit:parameters>
+      <spirit:parameter>
+        <spirit:name>isTop</spirit:name>
+        <spirit:value spirit:format="bool" spirit:resolve="immediate">true</spirit:value>
+      </spirit:parameter>
+    </spirit:parameters>
+    <spirit:model>
+      <spirit:views>
+        <spirit:view>
+          <spirit:name>BlockDiagram</spirit:name>
+          <spirit:envIdentifier>:vivado.xilinx.com:</spirit:envIdentifier>
+          <spirit:hierarchyRef spirit:library="BlockDiagram" spirit:name="ComplementCinq_imp" spirit:vendor="xilinx.com" spirit:version="1.00.a"/>
+        </spirit:view>
+      </spirit:views>
+      <spirit:ports>
+        <spirit:port>
+          <spirit:name>In0</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>In1</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>In2</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>In3</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>In4</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>Out0</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>Out1</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>Out2</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>Out3</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>Out4</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+      </spirit:ports>
+    </spirit:model>
+  </spirit:component>
+
+  <spirit:design xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+    <spirit:vendor>xilinx.com</spirit:vendor>
+    <spirit:library>BlockDiagram</spirit:library>
+    <spirit:name>ComplementCinq_imp</spirit:name>
+    <spirit:version>1.00.a</spirit:version>
+    <spirit:componentInstances>
+      <spirit:componentInstance>
+        <spirit:instanceName>xlconstant_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="xlconstant" spirit:vendor="xilinx.com" spirit:version="1.1"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">ComplementCinq_xlconstant_0_1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="CONST_WIDTH">1</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="CONST_VAL">0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>XOR0</spirit:instanceName>
+        <spirit:componentRef spirit:library="xup" spirit:name="xup_xor2" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">ComplementCinq_XOR0_3</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>XOR1</spirit:instanceName>
+        <spirit:componentRef spirit:library="xup" spirit:name="xup_xor2" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">ComplementCinq_XOR1_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>XOR2</spirit:instanceName>
+        <spirit:componentRef spirit:library="xup" spirit:name="xup_xor2" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">ComplementCinq_XOR0_1</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>XOR3</spirit:instanceName>
+        <spirit:componentRef spirit:library="xup" spirit:name="xup_xor2" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">ComplementCinq_XOR3_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+      <spirit:componentInstance>
+        <spirit:instanceName>Converter</spirit:instanceName>
+        <spirit:componentRef spirit:library="user" spirit:name="CinqAdder" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">ComplementCinq_Converter_0</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+    </spirit:componentInstances>
+    <spirit:adHocConnections>
+      <spirit:adHocConnection>
+        <spirit:name>In0_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="In0"/>
+        <spirit:internalPortReference spirit:componentRef="XOR0" spirit:portRef="a"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>In1_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="In1"/>
+        <spirit:internalPortReference spirit:componentRef="XOR2" spirit:portRef="a"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>In2_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="In2"/>
+        <spirit:internalPortReference spirit:componentRef="XOR1" spirit:portRef="a"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>In3_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="In3"/>
+        <spirit:internalPortReference spirit:componentRef="XOR3" spirit:portRef="a"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>In4_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="In4"/>
+        <spirit:internalPortReference spirit:componentRef="XOR0" spirit:portRef="b"/>
+        <spirit:internalPortReference spirit:componentRef="XOR2" spirit:portRef="b"/>
+        <spirit:internalPortReference spirit:componentRef="XOR1" spirit:portRef="b"/>
+        <spirit:internalPortReference spirit:componentRef="XOR3" spirit:portRef="b"/>
+        <spirit:internalPortReference spirit:componentRef="Converter" spirit:portRef="B4"/>
+        <spirit:internalPortReference spirit:componentRef="Converter" spirit:portRef="CI"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>xlconstant_0_dout</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="xlconstant_0" spirit:portRef="dout"/>
+        <spirit:internalPortReference spirit:componentRef="Converter" spirit:portRef="A0"/>
+        <spirit:internalPortReference spirit:componentRef="Converter" spirit:portRef="A1"/>
+        <spirit:internalPortReference spirit:componentRef="Converter" spirit:portRef="A2"/>
+        <spirit:internalPortReference spirit:componentRef="Converter" spirit:portRef="A3"/>
+        <spirit:internalPortReference spirit:componentRef="Converter" spirit:portRef="A4"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>XOR0_y</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="XOR0" spirit:portRef="y"/>
+        <spirit:internalPortReference spirit:componentRef="Converter" spirit:portRef="B0"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>XOR2_y</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="XOR2" spirit:portRef="y"/>
+        <spirit:internalPortReference spirit:componentRef="Converter" spirit:portRef="B1"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>XOR1_y</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="XOR1" spirit:portRef="y"/>
+        <spirit:internalPortReference spirit:componentRef="Converter" spirit:portRef="B2"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>XOR3_y</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="XOR3" spirit:portRef="y"/>
+        <spirit:internalPortReference spirit:componentRef="Converter" spirit:portRef="B3"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>Converter_S0</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="Converter" spirit:portRef="S0"/>
+        <spirit:externalPortReference spirit:portRef="Out0"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>Converter_S1</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="Converter" spirit:portRef="S1"/>
+        <spirit:externalPortReference spirit:portRef="Out1"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>Converter_S2</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="Converter" spirit:portRef="S2"/>
+        <spirit:externalPortReference spirit:portRef="Out2"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>Converter_S3</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="Converter" spirit:portRef="S3"/>
+        <spirit:externalPortReference spirit:portRef="Out3"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>Converter_S4</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="Converter" spirit:portRef="S4"/>
+        <spirit:externalPortReference spirit:portRef="Out4"/>
+      </spirit:adHocConnection>
+    </spirit:adHocConnections>
+  </spirit:design>
+
+</bd:repository>

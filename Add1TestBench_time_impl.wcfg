@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Add1TestBench_time_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="Add1TestBench" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1000000000fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="142"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/Add1TestBench/rOperand1" type="logic">
+      <obj_property name="ElementShortName">rOperand1</obj_property>
+      <obj_property name="ObjectShortName">rOperand1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Add1TestBench/rOperand2" type="logic">
+      <obj_property name="ElementShortName">rOperand2</obj_property>
+      <obj_property name="ObjectShortName">rOperand2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Add1TestBench/rCarryIn" type="logic">
+      <obj_property name="ElementShortName">rCarryIn</obj_property>
+      <obj_property name="ObjectShortName">rCarryIn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Add1TestBench/wResult" type="logic">
+      <obj_property name="ElementShortName">wResult</obj_property>
+      <obj_property name="ObjectShortName">wResult</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Add1TestBench/wCarryOut" type="logic">
+      <obj_property name="ElementShortName">wCarryOut</obj_property>
+      <obj_property name="ObjectShortName">wCarryOut</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Add1TestBench/pDelay" type="array">
+      <obj_property name="ElementShortName">pDelay[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pDelay[31:0]</obj_property>
+   </wvobject>
+</wave_config>

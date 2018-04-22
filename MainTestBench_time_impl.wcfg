@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="MainTestBench_time_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="MainTestBench" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="97927363960849fs"></ZoomStartTime>
+      <ZoomEndTime time="103247363960850fs"></ZoomEndTime>
+      <Cursor1Time time="103192231618000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="142"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/MainTestBench/rCLKAll" type="logic">
+      <obj_property name="ElementShortName">rCLKAll</obj_property>
+      <obj_property name="ObjectShortName">rCLKAll</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MainTestBench/rA" type="array">
+      <obj_property name="ElementShortName">rA[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rA[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MainTestBench/rB" type="array">
+      <obj_property name="ElementShortName">rB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MainTestBench/wEN" type="array">
+      <obj_property name="ElementShortName">wEN[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wEN[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MainTestBench/wD" type="array">
+      <obj_property name="ElementShortName">wD[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wD[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MainTestBench/wSA" type="logic">
+      <obj_property name="ElementShortName">wSA</obj_property>
+      <obj_property name="ObjectShortName">wSA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MainTestBench/wSB" type="logic">
+      <obj_property name="ElementShortName">wSB</obj_property>
+      <obj_property name="ObjectShortName">wSB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MainTestBench/wSR" type="logic">
+      <obj_property name="ElementShortName">wSR</obj_property>
+      <obj_property name="ObjectShortName">wSR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MainTestBench/pTClock" type="array">
+      <obj_property name="ElementShortName">pTClock[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pTClock[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MainTestBench/pDelay" type="array">
+      <obj_property name="ElementShortName">pDelay[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pDelay[31:0]</obj_property>
+   </wvobject>
+</wave_config>

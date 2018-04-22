@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sun Apr 22 18:10:24 2018
+# Process ID: 3868
+# Current directory: E:/VIVAPRJ/EDAProject1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12172 E:\VIVAPRJ\EDAProject1\EDAProject1.xpr
+# Log file: E:/VIVAPRJ/EDAProject1/vivado.log
+# Journal file: E:/VIVAPRJ/EDAProject1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/VIVAPRJ/EDAProject1/EDAProject1.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'DataSel8b41_xup_4_to_1_mux_vector_0_1_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'CinqAdder_FA0_3_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'CinqAdder_FA0_2_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'CinqAdder_FA0_1_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'CinqAdder_FA0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'CinqAdder_FullAdder_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'Calc5_ComplementCinq_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'Calc5_ComplementCinq_1_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'Calc5_ComplementCinq_2_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'Calc5_CinqAdder_0_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'FullAdder_xup_xor2_0_1_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'FullAdder_XOR0_1_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'FullAdder_xup_nand2_0_1_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'FullAdder_NAND0_1_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'FullAdder_NAND1_1_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'FullAdder_NAND0_2_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'FullAdder_NAND1_2_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'FullAdder_NAND2_0_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'impl_1' not found
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/VIVAPRJ/EDAProject1/XUP_LIB'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/VIVAPRJ/EDAProject1/MYLIB'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/VIVAPRJ/EDAProject1/C5A'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/VIVAPRJ/EDAProject1/C5Comp'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/vivado/Vivado/2017.2/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:27 . Memory (MB): peak = 800.215 ; gain = 106.691
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 22 18:12:16 2018...

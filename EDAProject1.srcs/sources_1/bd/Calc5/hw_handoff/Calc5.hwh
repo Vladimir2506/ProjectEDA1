@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Nov 30 02:04:35 2017" VIVADOVERSION="2017.2">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a35t" NAME="Calc5" PACKAGE="cpg236" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="A0" SIGIS="undef" SIGNAME="External_Ports_A0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Comp0" PORT="In0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="External_Ports_A1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Comp0" PORT="In1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="External_Ports_A2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Comp0" PORT="In2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="A3" SIGIS="undef" SIGNAME="External_Ports_A3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Comp0" PORT="In4"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="B0" SIGIS="undef" SIGNAME="External_Ports_B0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Comp1" PORT="In0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="B1" SIGIS="undef" SIGNAME="External_Ports_B1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Comp1" PORT="In1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="B2" SIGIS="undef" SIGNAME="External_Ports_B2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Comp1" PORT="In2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="B3" SIGIS="undef" SIGNAME="External_Ports_B3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Comp1" PORT="In4"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Y0" SIGIS="undef" SIGNAME="Comp2_Out0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Comp2" PORT="Out0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Y1" SIGIS="undef" SIGNAME="Comp2_Out1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Comp2" PORT="Out1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Y2" SIGIS="undef" SIGNAME="Comp2_Out2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Comp2" PORT="Out2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Y3" SIGIS="undef" SIGNAME="Comp2_Out3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Comp2" PORT="Out3"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="Y4" SIGIS="undef" SIGNAME="Comp2_Out4">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Comp2" PORT="Out4"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE FULLNAME="/Comp0" HWVERSION="1.0" INSTANCE="Comp0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ComplementCinq" VLNV="xilinx.com:user:ComplementCinq:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="Calc5_ComplementCinq_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="In0" SIGIS="undef" SIGNAME="External_Ports_A0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="In1" SIGIS="undef" SIGNAME="External_Ports_A1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="In2" SIGIS="undef" SIGNAME="External_Ports_A2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="In3" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="In4" SIGIS="undef" SIGNAME="External_Ports_A3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Out0" SIGIS="undef" SIGNAME="Comp0_Out0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Computer0" PORT="A0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Out1" SIGIS="undef" SIGNAME="Comp0_Out1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Computer0" PORT="A1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Out2" SIGIS="undef" SIGNAME="Comp0_Out2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Computer0" PORT="A2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Out3" SIGIS="undef" SIGNAME="Comp0_Out3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Computer0" PORT="A3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Out4" SIGIS="undef" SIGNAME="Comp0_Out4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Computer0" PORT="A4"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/Comp1" HWVERSION="1.0" INSTANCE="Comp1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ComplementCinq" VLNV="xilinx.com:user:ComplementCinq:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="Calc5_ComplementCinq_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="In0" SIGIS="undef" SIGNAME="External_Ports_B0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="In1" SIGIS="undef" SIGNAME="External_Ports_B1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="In2" SIGIS="undef" SIGNAME="External_Ports_B2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="In3" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="In4" SIGIS="undef" SIGNAME="External_Ports_B3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Out0" SIGIS="undef" SIGNAME="Comp1_Out0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Computer0" PORT="B0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Out1" SIGIS="undef" SIGNAME="Comp1_Out1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Computer0" PORT="B1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Out2" SIGIS="undef" SIGNAME="Comp1_Out2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Computer0" PORT="B2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Out3" SIGIS="undef" SIGNAME="Comp1_Out3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Computer0" PORT="B3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Out4" SIGIS="undef" SIGNAME="Comp1_Out4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Computer0" PORT="B4"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/Comp2" HWVERSION="1.0" INSTANCE="Comp2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ComplementCinq" VLNV="xilinx.com:user:ComplementCinq:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="Calc5_ComplementCinq_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="In0" SIGIS="undef" SIGNAME="Computer0_S0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Computer0" PORT="S0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="In1" SIGIS="undef" SIGNAME="Computer0_S1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Computer0" PORT="S1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="In2" SIGIS="undef" SIGNAME="Computer0_S2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Computer0" PORT="S2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="In3" SIGIS="undef" SIGNAME="Computer0_S3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Computer0" PORT="S3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="In4" SIGIS="undef" SIGNAME="Computer0_S4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Computer0" PORT="S4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Out0" SIGIS="undef" SIGNAME="Comp2_Out0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Y0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Out1" SIGIS="undef" SIGNAME="Comp2_Out1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Y1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Out2" SIGIS="undef" SIGNAME="Comp2_Out2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Y2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Out3" SIGIS="undef" SIGNAME="Comp2_Out3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Y3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Out4" SIGIS="undef" SIGNAME="Comp2_Out4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Y4"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/Computer0" HWVERSION="1.0" INSTANCE="Computer0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="CinqAdder" VLNV="xilinx.com:user:CinqAdder:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="Calc5_CinqAdder_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="A0" SIGIS="undef" SIGNAME="Comp0_Out0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Comp0" PORT="Out0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A1" SIGIS="undef" SIGNAME="Comp0_Out1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Comp0" PORT="Out1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A2" SIGIS="undef" SIGNAME="Comp0_Out2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Comp0" PORT="Out2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A3" SIGIS="undef" SIGNAME="Comp0_Out3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Comp0" PORT="Out3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="A4" SIGIS="undef" SIGNAME="Comp0_Out4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Comp0" PORT="Out4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B0" SIGIS="undef" SIGNAME="Comp1_Out0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Comp1" PORT="Out0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B1" SIGIS="undef" SIGNAME="Comp1_Out1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Comp1" PORT="Out1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B2" SIGIS="undef" SIGNAME="Comp1_Out2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Comp1" PORT="Out2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B3" SIGIS="undef" SIGNAME="Comp1_Out3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Comp1" PORT="Out3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="B4" SIGIS="undef" SIGNAME="Comp1_Out4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Comp1" PORT="Out4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CI" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="CO" SIGIS="undef"/>
+        <PORT DIR="O" NAME="S0" SIGIS="undef" SIGNAME="Computer0_S0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Comp2" PORT="In0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S1" SIGIS="undef" SIGNAME="Computer0_S1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Comp2" PORT="In1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S2" SIGIS="undef" SIGNAME="Computer0_S2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Comp2" PORT="In2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S3" SIGIS="undef" SIGNAME="Computer0_S3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Comp2" PORT="In3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S4" SIGIS="undef" SIGNAME="Computer0_S4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Comp2" PORT="In4"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/xlconstant_0" HWVERSION="1.1" INSTANCE="xlconstant_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="CONST_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="CONST_VAL" VALUE="0x0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Calc5_xlconstant_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Comp0" PORT="In3"/>
+            <CONNECTION INSTANCE="Comp1" PORT="In3"/>
+            <CONNECTION INSTANCE="Computer0" PORT="CI"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

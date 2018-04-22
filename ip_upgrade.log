@@ -1,0 +1,505 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Thu Nov 30 01:47:47 2017
+| Host         : Vladimir2506 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ComplementCinq_Converter_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of ComplementCinq_Converter_0 (xilinx.com:user:CinqAdder:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Thu Nov 30 01:30:47 2017
+| Host         : Vladimir2506 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CinqAdder_FA0_6'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CinqAdder_FA0_6 (xilinx.com:user:FullAdder:1.0 (Rev. 1)) to Vivado generation flows.
+
+2. Failures
+-----------
+
+Cannot find upgrade results for 'CinqAdder_FA0_4'
+Cannot find upgrade results for 'CinqAdder_FA0_5'
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Thu Nov 30 01:14:55 2017
+| Host         : Vladimir2506 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CinqAdder_FullAdder_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CinqAdder_FullAdder_0_1 (xilinx.com:user:FullAdder:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Thu Nov 30 01:14:55 2017
+| Host         : Vladimir2506 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CinqAdder_FA0_7'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CinqAdder_FA0_7 (xilinx.com:user:FullAdder:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Thu Nov 30 01:14:55 2017
+| Host         : Vladimir2506 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CinqAdder_FA0_6'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CinqAdder_FA0_6 (xilinx.com:user:FullAdder:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Thu Nov 30 01:14:55 2017
+| Host         : Vladimir2506 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CinqAdder_FA0_5'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CinqAdder_FA0_5 (xilinx.com:user:FullAdder:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Thu Nov 30 01:14:55 2017
+| Host         : Vladimir2506 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CinqAdder_FA0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CinqAdder_FA0_4 (xilinx.com:user:FullAdder:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Thu Nov 30 01:11:11 2017
+| Host         : Vladimir2506 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ComplementCinq_CinqAdder_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of ComplementCinq_CinqAdder_0_1 (xilinx.com:user:CinqAdder:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Thu Nov 30 01:11:08 2017
+| Host         : Vladimir2506 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CinqAdder_FullAdder_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CinqAdder_FullAdder_0_1 (xilinx.com:user:FullAdder:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Thu Nov 30 01:11:08 2017
+| Host         : Vladimir2506 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CinqAdder_FA0_7'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CinqAdder_FA0_7 (xilinx.com:user:FullAdder:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Thu Nov 30 01:11:08 2017
+| Host         : Vladimir2506 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CinqAdder_FA0_6'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CinqAdder_FA0_6 (xilinx.com:user:FullAdder:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Thu Nov 30 01:11:08 2017
+| Host         : Vladimir2506 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CinqAdder_FA0_5'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CinqAdder_FA0_5 (xilinx.com:user:FullAdder:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Thu Nov 30 01:11:08 2017
+| Host         : Vladimir2506 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CinqAdder_FA0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CinqAdder_FA0_4 (xilinx.com:user:FullAdder:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Thu Nov 30 01:11:04 2017
+| Host         : Vladimir2506 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Calc5_CinqAdder_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Calc5_CinqAdder_0_0 (xilinx.com:user:CinqAdder:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Thu Nov 30 01:04:07 2017
+| Host         : Vladimir2506 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Calc5_ComplementCinq_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Calc5_ComplementCinq_0_0 (xilinx.com:user:ComplementCinq:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Thu Nov 30 01:04:07 2017
+| Host         : Vladimir2506 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Calc5_Comp0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Calc5_Comp0_1 (xilinx.com:user:ComplementCinq:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Thu Nov 30 01:04:07 2017
+| Host         : Vladimir2506 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Calc5_Comp0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Calc5_Comp0_0 (xilinx.com:user:ComplementCinq:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Thu Nov 30 00:31:49 2017
+| Host         : Vladimir2506 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ComplementCinq_xlconstant_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of ComplementCinq_xlconstant_0_0 (xilinx.com:ip:xlconstant:1.1 (Rev. 3)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Thu Nov 30 00:31:49 2017
+| Host         : Vladimir2506 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ComplementCinq_CinqAdder_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of ComplementCinq_CinqAdder_0_0 (xilinx.com:user:CinqAdder:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Thu Nov 30 00:21:29 2017
+| Host         : Vladimir2506 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Calc5_xlconstant_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Calc5_xlconstant_0_0 (xilinx.com:ip:xlconstant:1.1 (Rev. 3)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Thu Nov 30 00:21:29 2017
+| Host         : Vladimir2506 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Calc5_ComplementCinq_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Calc5_ComplementCinq_0_0 (xilinx.com:user:ComplementCinq:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Thu Nov 30 00:21:29 2017
+| Host         : Vladimir2506 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Calc5_Comp0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Calc5_Comp0_1 (xilinx.com:user:ComplementCinq:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Thu Nov 30 00:21:29 2017
+| Host         : Vladimir2506 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Calc5_Comp0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Calc5_Comp0_0 (xilinx.com:user:ComplementCinq:1.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+| Date         : Thu Nov 30 00:21:29 2017
+| Host         : Vladimir2506 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'Calc5_CinqAdder_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of Calc5_CinqAdder_0_0 (xilinx.com:user:CinqAdder:1.0 (Rev. 1)) to Vivado generation flows.
+

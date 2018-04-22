@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sun Apr 22 18:10:24 2018
+# Process ID: 3868
+# Current directory: E:/VIVAPRJ/EDAProject1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12172 E:\VIVAPRJ\EDAProject1\EDAProject1.xpr
+# Log file: E:/VIVAPRJ/EDAProject1/vivado.log
+# Journal file: E:/VIVAPRJ/EDAProject1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/VIVAPRJ/EDAProject1/EDAProject1.xpr
+update_compile_order -fileset sources_1
